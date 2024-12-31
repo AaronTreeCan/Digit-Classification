@@ -3,7 +3,7 @@
 
 ![MNIST Digits Example](https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png)
 
-This project is a **Convolutional Neural Network (CNN)** designed to classify handwritten digits from the **MNIST dataset** with high accuracy. Built using **PyTorch**, the model achieves a classification accuracy of **98.9%**, showcasing robust performance through effective optimization techniques and data augmentation.
+This project is a **Convolutional Neural Network (CNN)** designed to classify handwritten digits from the **MNIST dataset** with high accuracy. Built using **PyTorch**, the model achieves a classification accuracy of **99%**, showcasing robust performance through effective optimization techniques and data augmentation.
 
 ## Project Overview
 
@@ -27,6 +27,8 @@ Each image is a 28x28 grayscale representation of a digit, paired with its corre
 
 ## Model Architecture
 
+![CNN Model](assets/CNNImage.png)
+
 The CNN model includes the following layers:
 1. **Convolutional Layers**: Extract spatial features from the images.
 2. **Pooling Layers**: Downsample feature maps to reduce dimensionality.
@@ -39,11 +41,10 @@ The CNN model includes the following layers:
 - Fully Connected -> Softmax
 
 ## Results
-- **Validation Accuracy**: 98.8%
-- **Test Accuracy**: 98.7%
+- **Validation Accuracy**: 98.9%
+- **Test Accuracy**: 99%
 
-![Training Accuracy Graph](path/to/training_accuracy.png)
-![Confusion Matrix](path/to/confusion_matrix.png)
+![Confusion Matrix](assets/ConfusionMatrix.png)
 
 ### File Descriptions
 - `FinalClassTeam6.py`: Python class for CNN model.
