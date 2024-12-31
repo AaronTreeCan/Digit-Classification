@@ -39,11 +39,16 @@ The CNN model includes the following layers:
 - Fully Connected -> Softmax
 
 ## Results
-- **Validation Accuracy**: 98.5%
-- **Test Accuracy**: 98.9%
+- **Validation Accuracy**: 98.8%
+- **Test Accuracy**: 98.7%
 
 ![Training Accuracy Graph](path/to/training_accuracy.png)
 ![Confusion Matrix](path/to/confusion_matrix.png)
+
+### File Descriptions
+- `FinalClassTeam6.py`: Python class for CNN model.
+- `FinalProjectTeam6.py`: Full code for installing libraries, training, validating, and evaluating the model.
+- `handwritten digits`: Contains handwritten digits that model is tested on.
 
 ## Usage
 
@@ -54,44 +59,15 @@ The CNN model includes the following layers:
 - Matplotlib
 - Scikit-learn
 
-### Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/mnist-cnn-classifier.git
-   cd mnist-cnn-classifier
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the training script:
-   ```bash
-   python train.py
-   ```
-4. Evaluate the model:
-   ```bash
-   python evaluate.py
-   ```
-
-### File Structure
-- `train.py`: Script to train the CNN model.
-- `evaluate.py`: Script to evaluate the trained model.
-- `model.py`: Contains the CNN architecture.
-- `data_utils.py`: Functions for data loading and augmentation.
-- `final_model.pth`: Saved model weights.
-
 ## Competition Highlights
 - Successfully classified all test digits under 1 second.
 - Custom data augmentation techniques improved model robustness against rotated and inverted digits.
 - Achieved competitive accuracy on both standard and custom-generated test cases.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
-- **Instructor**: Provided guidance on PyTorch and CNN concepts.
-- **Team Members**: Collaborated on model design, training, and testing.
-- **PyTorch Documentation**: Essential resource for implementation details.
+Special thanks to my awesome team members: 
+- [@marissazli](https://github.com/username) 
+- [@amadeubehrend](https://github.com/anotheruser)
 
 ---
 
